@@ -8,9 +8,9 @@ from rest_framework.response import Response
 
 
 # def date(request):
-#     dt = datetime.date.today()
+#     dt = datetime.date.today() 
 #     serialized_data = {'date': dt}
-#     return JsonResponse(serialized_data)
+#     return JsonResponse(serialized_data) # returns current date
 
 
 
