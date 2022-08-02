@@ -1,12 +1,11 @@
 import datetime
-
 from hijri_converter import Hijri, Gregorian
 
-def get_day(*args, **kwargs):
-    greg_day = datetime.date.today().strftime("%Y%m%d")
-    hijri_day = Gregorian(int(greg_day)).to_hijri()
-    hijri_day.strftime("%Y%m%d")
 
-    return hijri_day
+def get_hijri_day(*args, **kwargs):
+    dt = datetime.date.today()
+    hijri_day = Gregorian(dt.year, dt.month, dt.day).to_hijri()
 
-get_day()
+    print(hijri_day)
+
+get_hijri_day()
