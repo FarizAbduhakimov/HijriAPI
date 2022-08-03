@@ -6,6 +6,7 @@ from hijri_converter import Gregorian
 from rest_framework.response import Response
 
 
+
 # def date(request):
 #     dt = datetime.date.today() 
 #     serialized_data = {'date': dt}
