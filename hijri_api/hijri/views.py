@@ -7,12 +7,6 @@ from rest_framework.response import Response
 
 
 
-# def date(request):
-#     dt = datetime.date.today() 
-#     serialized_data = {'date': dt}
-#     return JsonResponse(serialized_data) # returns current date
-
-
 
 def date(request):
     dt = datetime.date.today()
