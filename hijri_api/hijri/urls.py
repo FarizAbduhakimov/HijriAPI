@@ -4,5 +4,5 @@ from rest_framework.urlpatterns import format_suffix_patterns
 from . import views
 
 urlpatterns = [
-    path("tohijri/", views.date)
+    path("tohijri/", views.to_hijri)
 ]
