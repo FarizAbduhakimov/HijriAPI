@@ -38,3 +38,14 @@ def to_gregorian(request):
         }
     
     return JsonResponse(gregorian_date)
+
+
+
+# @api_view(['GET'])
+# def hijri_months(request):
+#     pass
+
+
+# @api_view(['GET'])
+# def gregorian_months(request):
+#     pass
