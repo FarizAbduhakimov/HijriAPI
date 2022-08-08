@@ -8,4 +8,3 @@ def get_hijri_day(*args, **kwargs):
 
     print(hijri_day)
 
-get_hijri_day()
