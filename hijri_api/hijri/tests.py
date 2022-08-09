@@ -19,7 +19,8 @@ class MonthsTestCase(APITestCase):
         self.client = APIClient()
 
     def test_get_months(self):
-        response = self.client.get('http://127.0.0.1:8000/api/months/hijri')
+        url = 'http://127.0.0.1:8000/api/months/hijri'
+        response = self.client.get(url)
         self.assertEqual(response.status_code, 200)
 
 
@@ -29,6 +30,7 @@ class WeekDaysTestCase(APITestCase):
         self.client = APIClient()
 
     def test_get_days(self):
-        response = self.client.get('http://127.0.0.1:8000/api/weekdays/hijri')
+        url = 'http://127.0.0.1:8000/api/weekdays/hijri'
+        response = self.client.get(url)
         self.assertEqual(response.status_code, 200)
 
