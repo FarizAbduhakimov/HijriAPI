@@ -9,8 +9,8 @@ class DateTestCase(APITestCase):
     def test_get_date(self):
         factory = RequestFactory()
         url = 'http://127.0.0.1:8000/api/tohijri'
-        my_header = {'year': 2022, 'month': 12, 'day': 12}
-        request = factory.get(url, **my_header)
+        date = {'year': 2022, 'month': 12, 'day': 12}
+        request = factory.get(url, **date)
         print(request.headers, status.HTTP_200_OK)
 
 
