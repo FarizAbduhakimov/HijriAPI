@@ -13,7 +13,7 @@ Hijri API for getting dates in hijri (gregorian), also hijri (gregorian) months 
 <!-- Env Variables -->
 ## :key: Secret key
 
-To run this project, you will need to add your generated secret key. You can get it by this commands:
+To run this project, you will need to add your generated secret key in settings.py file on "INSTALLED_APPS". You can get it by this commands:
 
 go terminal `$ django-admin shell` and type
 
