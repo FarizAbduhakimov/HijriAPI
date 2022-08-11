@@ -24,7 +24,7 @@ def to_hijri(request):
     return JsonResponse(hijri_date)
 
 
-@api_view(['GET', 'POST'])
+@api_view(['GET'])
 def to_gregorian(request):
     """Get gregorian date"""
     year = request.data["year"]
