@@ -99,6 +99,14 @@ Go postman and continue following commands
   <p>Gregorian week days</p>
 </div>
 
+<!-- Swagger -->
+
+## 🖼Swagger UI
+Swagger url: `http:/<host>/swagger`
+<div align="center"> 
+  <img src="screenshots/swagger.png" alt="swagger" width="700" height="auto"/>
+</div>
+
 <!-- Running Tests -->
 ## :test_tube: Running Tests
 
