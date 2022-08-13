@@ -102,7 +102,7 @@ Go postman and continue following commands
 <!-- Swagger -->
 
 ## 🖼Swagger UI
-Swagger url: `http:/<host>/swagger`
+Swagger url: `http://127.0.0.1:8000/swagger/`
 <div align="center"> 
   <img src="screenshots/swagger.png" alt="swagger" width="700" height="auto"/>
 </div>
